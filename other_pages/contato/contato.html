@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="../base.css">
+        <link rel="stylesheet" type="text/css" href="contato.css">
+        <script src="../base.js"></script>
+        <script src="contato.js"></script>
+        <title>Contato | Sylvester Stallone</title>
+    </head>
+    <body>
+        <header>
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                  <h5 class="text-white h4 text-center">Veja mais páginas</h5>
+                  <div class="container d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-secondary" onclick="inicio()">Início</button>
+                    <button type="button" class="btn btn-outline-secondary space_my" onclick="sobre()">Sobre</button>
+                    <button type="button" class="btn btn-outline-secondary space_my" onclick="catalogo()">Catálogo</button>
+                  </div>
+                </div>
+              </div>
+              <nav class="navbar navbar-dark bg-dark">
+                <div class="container-fluid d-flex justify-content-start">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <h5 class="text-white h4" style="margin-left: 5px;"> Veja mais sobre Sylvester Stallone</h5>
+                </div>
+              </nav>
+            </div>
+        </header>
+
+        <main class="container mt-3 mb-3 main_my">
+            <div class="container">
+                <div class="jumbotron">
+                    <h1 class="display-4 text-center">Contate-me</h1>
+                    <hr class="my-4">
+                </div>
+            </div>
+            <div class="container">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-4">
+                      <label for="validationCustom01" class="form-label">Nome</label>
+                      <input type="text" class="form-control bg_whitesmoke" id="validationCustom01" value="" required>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationCustom02" class="form-label">Sobrenome</label>
+                      <input type="text" class="form-control bg_whitesmoke" id="validationCustom02" value="" required>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validationCustomUsername" class="form-label">E-mail</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control bg_whitesmoke" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationCustom03" class="form-label">Cidade</label>
+                      <input type="text" class="form-control bg_whitesmoke" id="validationCustom03" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom03" class="form-label">Insira sua mensagem</label>
+                        <textarea type="textarea" class="form-control bg_whitesmoke" id="validationCustom03" required></textarea>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input bg_whitesmoke" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                          Aceito receber mensagens em resposta a que eu enviei
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button class="btn btn-primary bg-dark" type="submit" onclick="submit_form()">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <hr class="my-4">
+            <div class="container text-center">
+                <h3 class="h3">Minhas redes sociais</h3>
+                <div class="container d-flex justify-content-center">
+                    <a href="https://www.facebook.com/SylvesterStallone/?locale=pt_BR"><img class="rounded" src="images/icons8-facebook-64.png"></a>
+                    <a href="https://www.instagram.com/officialslystallone/"><img class="rounded" src="images/icons8-instagram-64.png"></a>
+                    <a href="https://www.tiktok.com/@sylvesterstallone"><img class="rounded" src="images/icons8-tiktok-64.png"></a>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer mt-auto py-3 bg-dark text-white">
+            <div class="container text-center">
+                © 2024 Matheus Brizolla Moraes - INF2T
+            </div>
+        </footer>
+    </body>
+</html>

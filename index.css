@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(235, 234, 234);
+}
+.container-my{
+    width: 100%;
+    height: auto;
+}
+.footer {
+    background-color: #222;
+    color: white;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.personal-data {
+    background-color: whitesmoke; /* Cor de fundo para a seção */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0,0,0,.1); /* Sombra leve */
+}
+
+.personal-data h3 {
+    color: #333; /* Cor do texto do título */
+}
+p{
+    text-indent: 15px;
+    font-size: large;
+}
+.border_radius_my{
+    border-radius: 5px;
+}
+.line_black_solid{
+    border: solid #222 3px;
+    border-radius: 6px;
+    padding: 2%;
+}
+.space-my{
+    margin:10px;
+}

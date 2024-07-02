@@ -1,0 +1,15 @@
+.space_my{
+    margin-left: 2%;
+}
+.main_my{
+    border-radius: 7px;
+    padding: 2%;
+    background-color: rgb(232, 232, 232);
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+body{
+    background-color: rgb(220, 220, 220);
+}
+.shadow{
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
